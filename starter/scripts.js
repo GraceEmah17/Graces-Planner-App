@@ -14,7 +14,7 @@ $(document).ready(function () {
       $(`#${hour}`).val(eventText);
     }
   }
-  
+
   // Function to save events to local storage
   function saveEvents() {
     const events = {};
@@ -27,4 +27,21 @@ $(document).ready(function () {
 
     localStorage.setItem("events", JSON.stringify(events));
   }
+
+  // Function to dynamically create events for each hour
+  function createEvents() {
+    const container = $("#events-container");
+
+    for (let i = 9; i <= 17; i++) {
+      const hour = dayjs().hour(i).format("H");
+      const eventDiv = $("<div>").addClass("event");
+      const hourLabel = $("<div>").addClass("hour-label").text(`${i}:00`);
+      const input = $("<input>").attr("id", hour).attr("type", "text");
+      const saveBtn = $("<button>").text("Save").click(saveEvents);
+
+      eventDiv.append(hourLabel).append(input).append(saveBtn);
+      container.append(eventDiv);
+    }
+  }
+
 
