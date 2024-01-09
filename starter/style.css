@@ -110,3 +110,13 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+
+.lead{
+  text-align: center;
+  font-weight: bold;
+}
+.hour-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
