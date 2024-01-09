@@ -79,5 +79,18 @@ header {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+h1 {
+  text-align: center;
+  color: #333;
+}
 
+.event {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
