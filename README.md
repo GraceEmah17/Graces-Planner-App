@@ -13,6 +13,8 @@ The app was created, appointments are able to be booked and saved to local stora
 
 [link to github URL Graces-planner-App](https://github.com/GraceEmah17/Graces-Planner-App.git)
 
+[link to github deployed repo account](https://graceemah17.github.io/Graces-Planner-App/)
+
 ![screenshot of my planner app blank without appointment](./assets/images/screenshot1.png)
 
 ![screenshot of my planner app blank with appointment](./assets/images/screenshoot2.png)
