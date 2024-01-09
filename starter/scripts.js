@@ -44,4 +44,11 @@ $(document).ready(function () {
     }
   }
 
+  // Initial setup
+  displayDate();
+  createEvents();
+  loadEvents();
+});
+
+
 
