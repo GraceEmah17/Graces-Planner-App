@@ -94,3 +94,19 @@ h1 {
   align-items: center;
 }
 
+.event input {
+  flex: 1;
+  margin-right: 10px;
+  background-color: #e2dddd;
+  border: 0;
+  padding: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
